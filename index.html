@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Temperature Converter Website</h1>
+      <div style="display: flex; flex-direction: row;">
+        <input class="input" id="firstInput" type="number" placeholder="Type here" />
+        <select name="Dd" id="select">
+          <option value="celsius">celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+      </div>
+      <br>
+      <!-- <input class="input" id="secondInput" type="text" placeholder="Your Result"/> -->
+      <p id="result" class="Result">Your Result</p>
+
+      <button onclick="convert()">Convert</button>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
+
